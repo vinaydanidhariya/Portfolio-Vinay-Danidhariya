@@ -54,9 +54,8 @@ I welcome contributions! If you'd like to improve this project, follow these ste
 # Contact
 Feel free to connect with me:
 Email: Vinaydanidhariya@gmail.com
-
 # Screenshots
-![image](![alt text](https://github.com/vinaydanidhariya/Portfolio-Vinay-Danidhariya/blob/main/preview.png?raw=true)![Alt text](<preview.png>))
+![alt text](https://github.com/vinaydanidhariya/Portfolio-Vinay-Danidhariya/blob/main/preview.png?raw=true)
 
 ## 🚀 About Me
 Hi 👋, I'm a Dynamic Web Developer Looking For New Opportunities To Challenge Myself👍. Fav Languages : PHP, HTML. CSS, JAVACRIPT, MySQL.
