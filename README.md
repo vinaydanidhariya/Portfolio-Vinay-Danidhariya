@@ -4,12 +4,16 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## Table of Contents
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [My Personal Portfolio Website](#my-personal-portfolio-website)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
 - [Contact](#contact)
 - [Screenshots](#screenshots)
+  - [🚀 About Me](#-about-me)
+  - [🔗 Links](#-links)
 
 ## Features
 
@@ -29,7 +33,7 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/vinaydanidhariya/Portfolio-Vinay-Danidhariya.git
 
 1. Open index.html in your web browser to explore the website.
 
@@ -49,17 +53,17 @@ I welcome contributions! If you'd like to improve this project, follow these ste
 
 # Contact
 Feel free to connect with me:
-Email: mayurlavadiya123@gmail.com
+Email: Vinaydanidhariya@gmail.com
 
 # Screenshots
-![image](https://github.com/mayurlavadiya/my_portfolio/assets/100776003/4c838077-f65e-45e9-b4b5-bacd11d13283)
+![image](https://github.com/vinaydanidhariya/Portfolio-Vinay-Danidhariya/blob/main/images/preview.png![Alt text](<preview.png>))
 
 ## 🚀 About Me
 Hi 👋, I'm a Dynamic Web Developer Looking For New Opportunities To Challenge Myself👍. Fav Languages : PHP, HTML. CSS, JAVACRIPT, MySQL.
 
 🔭 I’m currently working on Something Cool!
 
-🌱 I’m currently learning PHP, LARAVEL, NODEJS, REACTJS.
+🌱 I’m currently learning NODEJS, REACTJS.
 
 👯 I’m looking to collaborate on cool project. 
 
@@ -67,13 +71,10 @@ Hi 👋, I'm a Dynamic Web Developer Looking For New Opportunities To Challenge 
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://mayurlavadiya.github.io/my_portfolio/index.html)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://vinaydanidhariya.github.io/Portfolio-Vinay-Danidhariya/index.html)
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/mayurlavadiya)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/vinay-danidhariya)
 
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/i/flow/login?redirect_after_login=%2FMayur_Lavadiya1)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/i/flow/login?redirect_after_login=%2Fvinay4114)
 
-[![instagram](https://img.shields.io/badge/instagram-405DE6?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mayur_lavadiya_/)
-
-
-
+[![instagram](https://img.shields.io/badge/instagram-405DE6?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/vinay_danidhariya/)
