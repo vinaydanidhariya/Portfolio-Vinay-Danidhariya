@@ -2,19 +2,6 @@
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and a glimpse of my journey. The website is crafted using HTML, CSS, JavaScript, and jQuery. It also includes an engaging dark mode toggle feature for improved user experience.
 
-## Table of Contents
-
-- [My Personal Portfolio Website](#my-personal-portfolio-website)
-  - [Table of Contents](#table-of-contents)
-  - [Features](#features)
-  - [Technologies Used](#technologies-used)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-- [Contact](#contact)
-- [Screenshots](#screenshots)
-  - [🚀 About Me](#-about-me)
-  - [🔗 Links](#-links)
-
 ## Features
 
 - **About Me:** Discover insights about my background, skills, and interests.
@@ -59,7 +46,7 @@ Email: Vinaydanidhariya@gmail.com
 ![alt text](https://vinaydanidhariya.github.io/Portfolio-Vinay-Danidhariya/preview.png?raw=true)
 
 ## 🚀 About Me
-Hi 👋, I'm a Dynamic Web Developer Looking For New Opportunities To Challenge Myself👍. Fav Languages : PHP, HTML. CSS, JAVACRIPT, MySQL.
+Hi 👋, I'm a Dynamic Web Developer Looking For New Opportunities To Challenge Myself👍. Fav Languages : HTML, CSS, JAVACRIPT, NODE, REACT, MYSQL.
 
 🔭 I’m currently working on Something Cool!
 
