@@ -56,7 +56,7 @@ Feel free to connect with me:
 Email: Vinaydanidhariya@gmail.com
 
 # Screenshots
-![image](https://github.com/vinaydanidhariya/Portfolio-Vinay-Danidhariya/blob/main/images/preview.png![Alt text](<preview.png>))
+![image](![alt text](https://github.com/vinaydanidhariya/Portfolio-Vinay-Danidhariya/blob/main/preview.png?raw=true)![Alt text](<preview.png>))
 
 ## 🚀 About Me
 Hi 👋, I'm a Dynamic Web Developer Looking For New Opportunities To Challenge Myself👍. Fav Languages : PHP, HTML. CSS, JAVACRIPT, MySQL.
