@@ -1,0 +1,220 @@
+/* Additional responsive fixes */
+
+/* Dark mode button fixes */
+@media (max-width: 768px) {
+    /* Header layout for mobile */
+    header {
+        padding: 12px 4%;
+    }
+    
+    /* Dark mode button positioning for mobile */
+    #darkmode {
+        position: absolute;
+        top: 12px;
+        right: 60px;
+        font-size: 22px;
+        margin-left: 0;
+    }
+    
+    /* Menu icon positioning */
+    #menu-icon {
+        position: relative;
+        z-index: 1001;
+    }
+    
+    /* Navbar layout fixes */
+    header .navbar {
+        padding: 15px 0;
+        top: -500px;
+    }
+    
+    .navbar li {
+        width: 100%;
+    }
+    
+    /* Fix spacing between navbar items */
+    .navbar a {
+        padding: 12px 15px;
+        margin: 0;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    /* Additional fixes for very small screens */
+    .navbar a {
+        font-size: 14px;
+        padding: 10px;
+    }
+    
+    header {
+        padding: 10px 4%;
+    }
+    
+    #darkmode {
+        font-size: 20px;
+        top: 10px;
+        right: 50px;
+    }
+    
+    /* Ensure menu items don't overlap */
+    .navbar a {
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    
+    /* Make sure last items are well spaced */
+    .navbar li:nth-last-child(1) a,
+    .navbar li:nth-last-child(2) a {
+        border-bottom: none;
+    }
+}
+
+/* Extra extra small screens */
+@media (max-width: 340px) {
+    #darkmode {
+        right: 45px;
+    }
+    
+    header {
+        padding: 10px 3%;
+    }
+    
+    .navbar a {
+        font-size: 13px;
+        padding: 8px;
+    }
+}
+
+/* Improve mobile menu transitions */
+@media (max-width: 768px) {
+    /* Smoother transition for navbar */
+    header .navbar {
+        transition: top 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    
+    /* Active navbar state */
+    .navbar.active {
+        top: 100%;
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+    
+    /* Fix for navbar links hover state */
+    .navbar a:hover {
+        background-color: rgba(0, 0, 0, 0.02);
+    }
+    
+    /* Improve hamburger menu icon interaction */
+    #menu-icon {
+        transition: transform 0.3s ease;
+    }
+    
+    .navbar.active + #menu-icon {
+        transform: rotate(90deg);
+    }
+    
+    /* Menu icon animation */
+    #menu-icon.menu-active {
+        transform: rotate(90deg);
+    }
+    
+    /* Fix dark mode position when menu is active */
+    .navbar.active ~ #darkmode {
+        color: var(--second-bg-color);
+    }
+    
+    /* Add better tap targets for mobile */
+    .navbar a {
+        position: relative;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar a:active {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+}
+
+/* General responsive improvements */
+@media (max-width: 768px) {
+    /* Responsive buttons */
+    .btn, .btn-alt {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    /* Improve section spacing */
+    section {
+        padding: 60px 5% 70px;
+    }
+    
+    /* Better mobile form inputs */
+    input, textarea {
+        padding: 12px;
+        font-size: 0.95rem;
+    }
+    
+    /* Improve mobile heading readability */
+    .heading h2 {
+        font-size: 2rem;
+    }
+    
+    /* Enhance mobile images */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Performance optimizations for mobile */
+@media (max-width: 480px) {
+    /* Optimize animations for mobile */
+    * {
+        animation-duration: 0.3s !important;
+    }
+    
+    /* Optimize transitions */
+    .transition-all {
+        transition-duration: 0.3s !important;
+    }
+    
+    /* Better spacing for mobile buttons */
+    .btn, .btn-alt {
+        padding: 8px 18px;
+        margin: 5px 0;
+    }
+}
+
+/* Social Icons Mobile Fixes */
+@media (max-width: 991px) {
+    /* Fix for social icons on mobile */
+    .social {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.5rem;
+        margin-top: 2rem;
+        padding: 0 10px;
+    }
+    
+    .social a {
+        width: 40px;
+        height: 40px;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .social {
+        gap: 1rem;
+    }
+    
+    .social a {
+        width: 35px;
+        height: 35px;
+        font-size: 1.1rem;
+    }
+}

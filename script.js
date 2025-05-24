@@ -8,13 +8,32 @@ window.addEventListener("scroll", () => {
   header.classList.toggle("shadow", window.scrollY > 0);
 });
 
+// Improved mobile menu toggle
 menu.onclick = () => {
   navbar.classList.toggle("active");
+  menu.classList.toggle("menu-active");
 };
 
-window.onscroll = () => {
+// Close menu when clicking a link
+document.querySelectorAll(".navbar a").forEach(link => {
+  link.addEventListener("click", () => {
+    navbar.classList.remove("active");
+    menu.classList.remove("menu-active");
+  });
+});
+
+// Close menu when scrolling or clicking outside
+window.addEventListener("scroll", () => {
   navbar.classList.remove("active");
-};
+  menu.classList.remove("menu-active");
+});
+
+window.addEventListener("click", (e) => {
+  if (!navbar.contains(e.target) && e.target !== menu) {
+    navbar.classList.remove("active");
+    menu.classList.remove("menu-active");
+  }
+});
 
 // Dark Mode / Light Mode
 let darkmode = document.querySelector("#darkmode");

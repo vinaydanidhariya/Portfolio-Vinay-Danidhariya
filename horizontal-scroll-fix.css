@@ -1,0 +1,115 @@
+/* Additional horizontal scroll fixes */
+
+/* Fix common causes of horizontal scrolling */
+html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Fix for all containers */
+div, section, header, footer, nav {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+/* Fix for elements with margin or padding */
+* {
+    box-sizing: border-box;
+}
+
+/* Fix for images and media */
+img, video, iframe, embed, object {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Fix any potential float issues */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Fix for absolute/fixed elements */
+.navbar.active {
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+/* Fix for elements with fixed width */
+[style*="width"] {
+    max-width: 100%;
+}
+
+/* Fix typography that might overflow */
+h1, h2, h3, h4, h5, h6, p, span, a {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Fix code blocks */
+pre, code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* Fix horizontal padding on mobile */
+@media (max-width: 768px) {
+    body, html {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    
+    .container {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    
+    section {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+/* Fix grid layouts on small screens */
+@media (max-width: 480px) {
+    .grid, .grid-container, [class*="grid-"] {
+        display: block !important;
+        width: 100% !important;
+    }
+}
+
+/* Timeline specific fixes for mobile */
+@media (max-width: 768px) {
+    .timeline::before {
+        left: 20px;
+    }
+    
+    .timeline-dot {
+        left: 20px;
+    }
+    
+    .timeline-content {
+        width: calc(100% - 50px) !important;
+        margin-left: 50px !important;
+    }
+}
+
+/* Fix for tables */
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+/* Fix for flexbox containers */
+.flex-container, [style*="display: flex"] {
+    flex-wrap: wrap;
+}
