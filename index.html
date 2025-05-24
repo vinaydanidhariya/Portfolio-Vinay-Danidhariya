@@ -1,408 +1,787 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
+<head>    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Vinay Danidhariya - Personal Portfolio Website </title>
+    <meta name="description" content="Vinay Danidhariya - Full-Stack Developer & MERN Stack Expert">
+    <meta name="keywords" content="Full-Stack Developer, MERN Stack, Web Developer, Frontend, Backend, React, Node.js, UI/UX">
+    <meta name="author" content="Vinay Danidhariya">    <title>Vinay Danidhariya | Full-Stack MERN Developer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
 </head>
 
-<body>
-    <!-- Navbar  Section Start -->
+<body>    <!-- Navbar Section Start -->
     <header>
-        <a href="index.html" class="logo">Vinay <span> Danidhariya</span></a>
-
+        <a href="index.html" class="logo">Vinay <span>Danidhariya</span></a>
+        
         <div class="bx bx-menu" id="menu-icon"></div>
-
+        
         <ul class="navbar">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#honors">Honors</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
             <div class="bx bx-moon" id="darkmode"></div>
         </ul>
     </header>
-    <!-- Navbar Section End -->
-    <!-- Home Section Start -->
+    <!-- Navbar Section End --><!-- Home Section Start -->
     <section class="home" id="home">
-        <div class="social">
-            <a href="https://github.com/vinaydanidhariya"><i class='bx bxl-github'></i></a>
-            <a href="https://www.linkedin.com/in/vinay-danidhariya/"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://www.instagram.com/vinay_danidhariya/"><i class='bx bxl-instagram'></i></a>
-        </div>
-        <div class="home-img">
-            <img src="./images/main.webp" alt="">
-        </div>
-        <div class="home-text">
-            <span>Hello, I'm</span>
-            <h1>Vinay Danidhariya</h1>
-            <h2 style="font-weight: bold; color: #DC143c;">MERN-Stack Developer</h2>
-            <p>Full-stack Web developer with one year of experience in Node.js, Express, Handlebars, and React.js. I
-                have a robust background in C++, HTML5, CSS3, JavaScript, and various other web technologies. My passion
-                lies in working with cutting-edge technologies and continually enhancing my web development skills.</p>
-            <a class="btn" href="./images/Resume-vinaydanidhariya.pdf" download="Vinay_Danidhariya_Resume.pdf">Download
-                Resume</a>
-
-            <a href="https://www.linkedin.com/in/vinaydanidhariya/" class="btn">Hire Me</a>
-
+        <div class="container">
+            <div class="social" data-aos="fade-right" data-aos-delay="200">
+                <a href="https://github.com/vinaydanidhariya" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/vinay-danidhariya/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/vinay_danidhariya/" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/vinay_danidhariya" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <div class="home-img" data-aos="fade-in" data-aos-delay="300">
+                <img src="./images/main.webp" alt="Vinay Danidhariya profile photo">
+            </div>
+            <div class="home-text" data-aos="fade-left" data-aos-delay="400">
+                <span>Hello, I'm</span>
+                <h1>Vinay Danidhariya</h1>
+                <h2 class="animate-text"><span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+                <p>Full-Stack Developer with expertise in the MERN stack and modern web technologies. I specialize in creating intuitive user interfaces, responsive designs, and robust backend systems that deliver exceptional digital experiences. Currently pursuing my MCA at Marwadi University with a focus on AI and machine learning applications.</p>
+                <div class="cta-buttons">
+                    <a class="btn primary-btn" href="./images/Resume-vinaydanidhariya.pdf" download="Vinay_Danidhariya_Resume.pdf">
+                        <i class='bx bx-download'></i> Download Resume
+                    </a>
+                    <a href="https://www.linkedin.com/in/vinay-danidhariya/" class="btn secondary-btn">
+                        <i class='bx bx-envelope'></i> Contact Me
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- Home Section End -->
-
-    <!-- About Section Start -->
-
+    <!-- Home Section End --><!-- About Section Start -->
     <section class="about" id="about">
-        <div class="heading">
-            <h2>About Me</h2>
-            <span>Introduction</span>
-        </div>
-
-        <div class="about-container">
-            <div class="about-img">
-                <img src="./images/main.webp" alt="Vinay Danidhariya" style="
-    width: auto;
-">
+        <div class="container">
+            <div class="section-heading" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">My Professional Journey</p>
             </div>
-            <div class="about-text">
-                <p>I'm Vinay Danidhariya, a dedicated MERN stack developer with one year of valuable experience in
-                    backend development using Node.js. Proficient in a wide range of web technologies, my skills include
-                    HTML, CSS, JavaScript, Bootstrap, jQuery, AJAX, Node.js, Express, Handlebars, SQL, PostgreSQL, and I
-                    have a basic understanding of React.
-                </p>
-                <p class="pt-2">
-                    I'm passionate about web development, and my experience includes crafting user-friendly websites and
-                    seamless payment integration. I have a keen interest in learning
-                    about new technologies.</p>
-                <div class="information">
-                    <div class="info-box">
-                        <i class='bx bxs-user'></i>
-                        <span>Vinay Danidhariya</span>
-                    </div>
 
-                    <div class="info-box">
-                        <i class='bx bxs-phone'></i>
-                        <span>+91 9265979359</span>
-                    </div>
-
-                    <div class="info-box">
-                        <i class='bx bxs-envelope'></i>
-                        <span>
-                            <a href="mailto:vinaydanidhariya@gmail.com">vinaydanidhariya@gmail.com</a>
-                        </span>
-                    </div>
+            <div class="about-container">
+                <div class="about-img" data-aos="fade-right" data-aos-delay="200">
+                    <img src="./images/main.webp" alt="Vinay Danidhariya" class="profile-image">
                 </div>
-                <a class="btn" href="./images/Resume-vinaydanidhariya.pdf"
-                    download="Vinay_Danidhariya_Resume.pdf">Download Resume</a>
+                <div class="about-text" data-aos="fade-left" data-aos-delay="300">
+                    <p>I'm a passionate Full-Stack Developer currently pursuing my Master's in Computer Applications at Marwadi University. With expertise in both frontend and backend technologies, I focus on creating intuitive, engaging, and high-performance web applications.</p>
+                    
+                    <p>My professional journey includes working with modern JavaScript frameworks, building RESTful APIs, and implementing database solutions. I've developed projects ranging from e-commerce platforms to AI-powered applications, always with a focus on delivering exceptional user experiences and clean, maintainable code.</p>
+                    
+                    <div class="key-skills">
+                        <span class="skill-tag">MERN Stack</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                    </div>
+                    
+                    <div class="information">
+                        <div class="info-box">
+                            <i class='bx bxs-user'></i>
+                            <div>
+                                <h4>Name</h4>
+                                <p>Vinay Danidhariya</p>
+                            </div>
+                        </div>
 
+                        <div class="info-box">
+                            <i class='bx bxs-phone'></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 9265979359</p>
+                            </div>
+                        </div>
+
+                        <div class="info-box">
+                            <i class='bx bxs-envelope'></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:vinaydanidhariya@gmail.com">vinaydanidhariya@gmail.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-box">
+                            <i class='bx bxs-map'></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Rajkot, Gujarat, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn primary-btn" href="./images/Resume-vinaydanidhariya.pdf" download="Vinay_Danidhariya_Resume.pdf">
+                        <i class='bx bx-download'></i> Download Resume
+                    </a>
+                </div>
             </div>
         </div>
     </section>
-    <!-- About Section End -->
-
-    <!-- Skills Section Start -->
-
+    <!-- About Section End -->    <!-- Skills Section Start -->
     <section class="skills" id="skills">
-        <div class="heading">
-            <h2>Skills</h2>
-            <span>My Skills</span>
-        </div>
-
-        <div class="skills-container">
-            <div class="bars">
-                <div class="bars-box">
-                    <h3>HTML</h3>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar html-bar"></div>
-                </div>
-
-                <div class="bars-box">
-                    <h3>CSS</h3>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar css-bar"></div>
-                </div>
-
-                <div class="bars-box">
-                    <h3>JavaScript</h3>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar js-bar"></div>
-                </div>
-
-                <div class="bars-box">
-                    <h3>React</h3>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar react-bar"></div>
-                </div>
-
-                <div class="bars-box">
-                    <h3>Node.js</h3>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar node-bar"></div>
-                </div>
-
-                <div class="bars-box">
-                    <h3>Express</h3>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar express-bar"></div>
-                </div>
-
-                <div class="bars-box">
-                    <h3>Handlebars</h3>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar handlebars-bar"></div>
-                </div>
-
-                <div class="bars-box">
-                    <h3>SQL</h3>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar sql-bar"></div>
-                </div>
-
-                <div class="bars-box">
-                    <h3>MongoDb</h3>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar postgresql-bar"></div>
-                </div>
-
-                <div class="bars-box">
-                    <h3>PostgreSQL</h3>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar postgresql-bar"></div>
-                </div>
-
-                <div class="bars-box">
-                    <h3>jQuery</h3>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar jquery-bar"></div>
-                </div>
-
-                <div class="bars-box">
-                    <h3>AJAX</h3>
-                    <div class="light-bar"></div>
-                    <div class="percent-bar ajax-bar"></div>
-                </div>
+        <div class="container">
+            <div class="section-heading" data-aos="fade-up">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-subtitle">My Technical Expertise</p>
             </div>
-            <div class="skills-img">
+
+            <div class="skills-container">
+            <div class="skills-categories" data-aos="fade-right" data-aos-delay="200">                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-grid">                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span data-percentage="95%">HTML5</span>
+                            <div class="skill-level" data-width="95%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span data-percentage="90%">CSS3</span>
+                            <div class="skill-level" data-width="90%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span data-percentage="85%">JavaScript</span>
+                            <div class="skill-level" data-width="85%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span data-percentage="80%">React</span>
+                            <div class="skill-level" data-width="80%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fab fa-bootstrap"></i>
+                            <span data-percentage="90%">Bootstrap</span>
+                            <div class="skill-level" data-width="90%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <span data-percentage="85%">UI/UX Design</span>
+                            <div class="skill-level" data-width="85%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fab fa-sass"></i>
+                            <span data-percentage="75%">Sass</span>
+                            <div class="skill-level" data-width="75%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fab fa-figma"></i>
+                            <span data-percentage="70%">Figma</span>
+                            <div class="skill-level" data-width="70%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-grid">                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span data-percentage="85%">Node.js</span>
+                            <div class="skill-level" data-width="85%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span data-percentage="85%">Express</span>
+                            <div class="skill-level" data-width="85%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span data-percentage="80%">MongoDB</span>
+                            <div class="skill-level" data-width="80%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span data-percentage="75%">SQL</span>
+                            <div class="skill-level" data-width="75%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span data-percentage="75%">PostgreSQL</span>
+                            <div class="skill-level" data-width="75%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span data-percentage="70%">PHP</span>
+                            <div class="skill-level" data-width="70%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span data-percentage="65%">Firebase</span>
+                            <div class="skill-level" data-width="65%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fas fa-file-code"></i>
+                            <span data-percentage="80%">REST APIs</span>
+                            <div class="skill-level" data-width="80%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <div class="skill-grid">                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span data-percentage="85%">Git</span>
+                            <div class="skill-level" data-width="85%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">                            <i class="fab fa-github"></i>
+                            <span data-percentage="85%">GitHub</span>
+                            <div class="skill-level" data-width="85%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">                            <i class="fab fa-npm"></i>
+                            <span data-percentage="80%">npm</span>
+                            <div class="skill-level" data-width="80%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span data-percentage="95%">Responsive Design</span>
+                            <div class="skill-level" data-width="95%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fas fa-terminal"></i>
+                            <span data-percentage="80%">Command Line</span>
+                            <div class="skill-level" data-width="80%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <span data-percentage="75%">VS Code</span>
+                            <div class="skill-level" data-width="75%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span data-percentage="85%">RESTful APIs</span>
+                            <div class="skill-level" data-width="85%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>                        <div class="skill-item">
+                            <i class="fas fa-cloud"></i>
+                            <span data-percentage="75%">AWS</span>
+                            <div class="skill-level" data-width="75%">
+                                <div class="skill-progress"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>            </div>
+            <div class="skills-img" data-aos="fade-left" data-aos-delay="300">
                 <img src="./images/Programming-amico.png" alt="Skill">
             </div>
         </div>
-    </section>
-
-    <!-- Skills Section End -->
+    </section>    <!-- Skills Section End -->
+    
     <!-- Services Section Start -->
-
     <section class="services" id="services">
-        <div class="heading">
-            <h2>Services</h2>
-            <span>My Services</span>
-        </div>
-        <div class="services-content">
-
-            <div class="services-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>Web Development</h3>
+        <div class="container">
+            <div class="section-heading" data-aos="fade-up">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">What I Offer</p>
             </div>
+            <div class="services-container">
+                <div class="service-box" data-aos="fade-up" data-aos-delay="200">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive, user-centered designs with a focus on usability, accessibility, and visual appeal. I transform complex requirements into elegant interfaces that users love.</p>
+                </div>
 
-            <div class="services-box">
-                <i class='bx bx-server'></i>
-                <h3>Backend Development</h3>
-            </div>
-            <div class="services-box">
-                <i class='bx bx-brush'></i>
-                <h3>UI/UX Design</h3>
-            </div>
-
-            <div class="services-box">
-                <i class='bx bxl-android'></i>
-                <h3>App Development</h3>
+                <div class="service-box" data-aos="fade-up" data-aos-delay="300">
+                    <i class='bx bx-palette'></i>
+                    <h3>Frontend Development</h3>
+                    <p>Building responsive, fast-loading websites and applications using modern frameworks like React. I ensure cross-browser compatibility and pixel-perfect implementation of designs.</p>
+                </div>
+                
+                <div class="service-box" data-aos="fade-up" data-aos-delay="400">
+                    <i class='bx bx-server'></i>
+                    <h3>Backend Development</h3>
+                    <p>Developing robust server-side applications and APIs using Node.js and Express. I design efficient database structures and implement secure authentication systems.</p>
+                </div>                <div class="service-box" data-aos="fade-up" data-aos-delay="500">
+                    <i class='bx bx-mobile-alt'></i>
+                    <h3>Responsive Web Design</h3>
+                    <p>Creating websites that look and function flawlessly across all devices and screen sizes, ensuring an optimal user experience whether on desktop, tablet, or mobile.</p>
+                </div>
+                
+                <div class="service-box" data-aos="fade-up" data-aos-delay="600">
+                    <i class='bx bx-line-chart'></i>
+                    <h3>Performance Optimization</h3>
+                    <p>Improving website speed and performance through code optimization, image optimization, and implementation of best practices to enhance user experience and SEO rankings.</p>
+                </div>
+                
+                <div class="service-box" data-aos="fade-up" data-aos-delay="700">
+                    <i class='bx bx-refresh'></i>
+                    <h3>Website Maintenance</h3>
+                    <p>Providing ongoing support, updates, and improvements to keep your website secure, fast, and up-to-date with the latest web standards and technologies.</p>
+                </div>
             </div>
         </div>
     </section>
     <!-- Services Section End -->
-
-    <!-- Project -->
-
+    
+    <!-- Projects Section Start -->
     <section class="projects" id="projects">
-        <div class="heading">
-            <h2>Projects</h2>
-            <span>My Projects</span>
-        </div>
-        <div class="projects-content">
+        <div class="container">
+            <div class="section-heading" data-aos="fade-up">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">My Recent Work</p>
+            </div>
+            <div class="projects-content">                <div class="project-box" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="./images/output-onlinepngtools.png" alt="AI Resume Screening System">
+                        <div class="project-overlay">
+                            <a href="https://github.com/vinaydanidhariya/AI-Resume-Screener" target="_blank" aria-label="View Code">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <a href="#" target="_blank" aria-label="Live Demo">
+                                <i class='bx bx-link-external'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <span class="project-category">AI/ML</span>
+                        <h3>AI Resume Screening System</h3>
+                        <p>An intelligent application that uses machine learning to analyze resumes, match them with job descriptions, and rank candidates based on their qualifications.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">ML</span>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="project-box">
+            <div class="project-box" data-aos="fade-up" data-aos-delay="300">
                 <div class="project-image">
-
                     <a href="https://shivayinfotech.org" target="_blank">
-                        <img src="./images/shivay/home2.png" alt="Project 4"></a>
-                </div>
-                <h2>Shivay Infotech Website</h2>
-                <p>BookApp is designed with a simple and user-friendly interface, making it easy for users to navigate
-                    and find the books they want to read and also Admin features for manager user, books, categories
-                    etc.,<br><b>Stack Used :</b> HTML, Android, Kotlin, Firebase DB, </p>
-                <a href="https://shivayinfotech.org" target="_blank">Project Link</a>
-            </div>
-
-            <div class="project-box">
-                <div class="project-image">
-                    <a href="https://qr-code-generator-n76f.onrender.com/" target="_blank">
-                        <img src="./images/qr-code/qr.png" alt="Project 3"></a>
-                </div>
-                <h2>QR Code Generator</h2>
-                <p>Transforming Travel Experiences: crafted a stunning, responsive travel website with a captivating
-                    design<br> <b>Stack Used :</b> HTML, CSS & JavaScript.</p>
-                <a href="https://qr-code-generator-n76f.onrender.com/" target="_blank">Project
-                    Link</a>
-            </div>
-
-            <div class="project-box">
-                <div class="project-image">
-                    <a href="https://github.com/vinaydanidhariya/Tupperware-Ecommerce-Site" target="_blank">
-                        <img src="./images/krupa-application/home.webp" alt="Project 2"></a>
-                    <a href="https://github.com/vinaydanidhariya/Tupperware-Ecommerce-Site" target="_blank">
-                        <img src="./images/krupa-application/product.png" alt="Project 2"></a>
-                </div>
-                <h2>Krupa E-Commerce Mobile Application</h2>
-                <p>Krupa E-commerce Mobile Application with Implemented essential functionalities including add to cart,
-                    order tracking, and payment integration and Admin features<br> <b>Stack Used :</b> Java,volley
-                    library for fetching api, MySQL database.</p>
-                <a href="https://github.com/vinaydanidhariya/Tupperware-Ecommerce-Site" target="_blank">Project Link</a>
-            </div>
-
-            <div class="project-box">
-                <div class="project-image">
-                    <a href="https://krupaecommerce.000webhostapp.com/" target="_blank">
-                        <img src="./images/krupa/home.png" alt="Project 1">
+                        <img src="./images/shivay/home2.png" alt="Shivay Infotech Website">
                     </a>
                 </div>
-                <h2>Krupa E-commerce Web Application</h2>
-                <p>Blog website with Admin Functionalities <br><b>Stack Used :</b> HTML, CSS, JavaScript, jQuery, PHP,
-                    Laravel & MySQL database.</p>
-                <p>
-                    Which has features of :
-                    - Gender Wise Categories
-                    - Register, Login, Logout, Profile
-                    - Add Cart , Checkout
-                    -Product Page
-                </p>
-                <a href="https://krupaecommerce.000webhostapp.com/" target="_blank">Project Link </a>
+                <div class="project-details">
+                    <h2>Shivay Infotech Website</h2>
+                    <p>A professional company website designed with a focus on user experience and brand identity. Features responsive design, service showcases, and contact integration.</p>
+                    <div class="project-tech">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                        <span>Responsive Design</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://shivayinfotech.org" target="_blank" class="btn project-btn">
+                            <i class='bx bx-link-external'></i> Live Demo
+                        </a>
+                    </div>
+                </div>
             </div>
 
+            <div class="project-box" data-aos="fade-up" data-aos-delay="400">
+                <div class="project-image">
+                    <a href="https://github.com/vinaydanidhariya/Tupperware-Ecommerce-Site" target="_blank">
+                        <div class="project-image-gallery">
+                            <img src="./images/krupa-application/home.webp" alt="Krupa E-Commerce Mobile App Home">
+                            <img src="./images/krupa-application/product.png" alt="Krupa E-Commerce Mobile App Products">
+                        </div>
+                    </a>
+                </div>
+                <div class="project-details">
+                    <h2>Krupa E-Commerce Mobile Application</h2>
+                    <p>A comprehensive mobile e-commerce application with features like product browsing, cart management, order tracking, and secure payment integration.</p>
+                    <div class="project-tech">
+                        <span>Java</span>
+                        <span>Volley Library</span>
+                        <span>REST API</span>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/vinaydanidhariya/Tupperware-Ecommerce-Site" target="_blank" class="btn project-btn">
+                            <i class='bx bxl-github'></i> View Code
+                        </a>
+                    </div>
+                </div>
+            </div>            <div class="project-box" data-aos="fade-up" data-aos-delay="500">
+                <div class="project-image">
+                    <a href="https://qr-code-generator-n76f.onrender.com/" target="_blank">
+                        <img src="./images/qr-code/qr.png" alt="QR Code Generator">
+                    </a>
+                </div>
+                <div class="project-details">
+                    <h2>QR Code Generator</h2>
+                    <p>A simple yet powerful web application that allows users to generate QR codes for various types of content, including URLs, text, and contact information.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>QR Code API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://qr-code-generator-n76f.onrender.com/" target="_blank" class="btn project-btn">
+                            <i class='bx bx-link-external'></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
     </section>
-
-    <!-- WORK EXPERIENCE -->
+    <!-- Projects Section End -->
+      <!-- Experience Section Start -->
     <section class="experience" id="experience">
-        <div class="heading">
-            <h2>Experience</h2>
-            <span>My Work Experience </span>
-        </div>
-        <div class="experience-content">
+        <div class="container">
+            <div class="section-heading" data-aos="fade-up">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My Professional Journey</p>
+            </div>
+            <div class="timeline" data-aos="fade-up" data-aos-delay="200"><div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">February 2025 - May 2025</span>
+                        <h3>Software Development Intern</h3>
+                        <h4>Promact Global Pvt. Ltd. - Vadodara, India</h4>
+                        <p>Developed an AI-powered resume screening system to automate candidate evaluation and improve hiring efficiency. Collaborated with the development team on full-stack web applications using modern JavaScript frameworks and participated in Agile development processes.</p>
+                    </div>
+                </div>
 
-            <div class="experience-box">
-                <img src="https://shivayinfotech.org/images/logo.svg" alt="" width="60%">
-                <h2 class="red-heading">Full-stack Web Developer</h2>
-                <h4>July 2022 - PRESENT</h4>
-                <p>Rajkot, Gujarat.</p>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <img src="https://shivayinfotech.org/images/logo.svg" alt="Shivay Infotech Logo" class="company-logo">
+                            <div class="timeline-title">
+                                <h3>Full-Stack Developer</h3>
+                                <span>Shivay Infotech PVT LTD</span>
+                            </div>
+                        </div>
+                        <div class="timeline-date">April 2022 - January 2023</div>
+                        <div class="timeline-location"><i class='bx bxs-map'></i> Rajkot, Gujarat</div>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Developed backend technology components using Node.js and Express, performing deployments that ensured smooth and efficient software operations</li>
+                                <li>Implemented RESTful API architecture, enhancing system performance</li>
+                                <li>Presented findings and solutions at internal tech meetings, receiving recognition for contributions to project success and team efficiency</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!-- Experience Section End -->
 
-    <!-- Educational Details -->
-    <section class="experience" id="experience">
-        <div class="heading">
-            <h2>Education</h2>
-            <span>My Education Details </span>
-        </div>
-        <div class="experience-content">
-            <div class="experience-box">
-                <h1 style="color: var(--main-color);">MCA</h1>
-                <h2>Marawadi University, Rajkot.</h2>
-                <h4>Present</h4>
-                <p>2023 - 2025</p>
+    <!-- Education Section Start -->
+    <section class="education" id="education">
+        <div class="container">
+            <div class="section-heading" data-aos="fade-up">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My Academic Background</p>
             </div>
-            <div class="experience-box">
-                <h1 style="color: var(--main-color);">BCA</h1>
-                <h2>Harivandana College, Rajkot.</h2>
-                <h4><b>CGPA : </b>8.083</h4>
-                <p>2021 - 2023</p>
+            <div class="timeline" data-aos="fade-up" data-aos-delay="200">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - 2025 (Present)</span>
+                        <h3>Master of Computer Applications (MCA)</h3>
+                        <h4>Marwadi University, Rajkot</h4>
+                        <p>Currently pursuing advanced studies in computer applications with a focus on software development and design principles. CGPA: 9.04/10</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="education-icon"><i class='bx bxs-graduation'></i></div>
+                            <div class="timeline-title">
+                                <h3>Bachelor of Computer Applications (BCA)</h3>
+                                <span>Saurashtra University, Rajkot</span>
+                            </div>
+                        </div>
+                        <div class="timeline-date">2020 - 2023</div>
+                        <div class="timeline-description">
+                            <p>Graduated with a CGPA of 8.08/10, specialized in web technologies and application development.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-
+    <!-- Education Section End -->
+    
+    <!-- Certifications Section Start -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <div class="section-heading" data-aos="fade-up">
+                <h2 class="section-title">Certifications</h2>
+                <p class="section-subtitle">Professional Development</p>
+            </div>
+            <div class="timeline" data-aos="fade-up" data-aos-delay="200"></div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="education-icon"><i class='bx bxs-certification'></i></div>
+                            <div class="timeline-title">
+                                <h3>Amazon Web Services (AWS) Certified</h3>
+                                <span>Infosys Springboard</span>
+                            </div>
+                        </div>
+                        <div class="timeline-date">August 2024 - September 2024</div>
+                        <div class="timeline-description">
+                            <p>Certification in AWS cloud services, architecture, and best practices for deploying scalable applications.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="education-icon"><i class='bx bxs-certification'></i></div>
+                            <div class="timeline-title">
+                                <h3>Introduction to Cloud Computing</h3>
+                                <span>Infosys Springboard</span>
+                            </div>
+                        </div>
+                        <div class="timeline-date">June 2024 - July 2024</div>
+                        <div class="timeline-description">
+                            <p>Comprehensive introduction to cloud computing concepts, services, deployment models, and security considerations.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="education-icon"><i class='bx bxs-certification'></i></div>
+                            <div class="timeline-title">
+                                <h3>Web Development with Node.js, MongoDB, and Express</h3>
+                                <span>Infosys Springboard</span>
+                            </div>
+                        </div>
+                        <div class="timeline-date">March 2024 - April 2024</div>
+                        <div class="timeline-description">
+                            <p>In-depth training on building full-stack web applications using the Node.js ecosystem with MongoDB database integration.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="education-icon"><i class='bx bxs-certification'></i></div>
+                            <div class="timeline-title">
+                                <h3>ExpressJS Essential Training</h3>
+                                <span>Infosys Springboard</span>
+                            </div>
+                        </div>
+                        <div class="timeline-date">February 2024 - March 2024</div>
+                        <div class="timeline-description">
+                            <p>Specialized training on Express.js framework for building efficient and scalable web applications and APIs.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="education-icon"><i class='bx bxs-certification'></i></div>
+                            <div class="timeline-title">
+                                <h3>Node.js</h3>
+                                <span>Infosys Springboard</span>
+                            </div>
+                        </div>
+                        <div class="timeline-date">January 2024 - February 2024</div>
+                        <div class="timeline-description">
+                            <p>Foundational certification in Node.js server-side JavaScript runtime, covering core concepts and practical application development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Certifications Section End -->
+     
+    <!-- Honors & Achievements Section Start -->
+    <section class="honors" id="honors">
+        <div class="container">
+            <div class="section-heading" data-aos="fade-up">
+                <h2 class="section-title">Competitive Programming</h2>
+                <p class="section-subtitle">Problem Solving & Technical Skills</p>
+            </div>
+            
+            <div class="honors-container">
+                <div class="honor-content" data-aos="fade-right" data-aos-delay="200">
+                    <h3>Knowledge in:</h3>
+                    <ul class="knowledge-list">
+                        <li><i class='bx bx-code-block'></i> Data Structures</li>
+                        <li><i class='bx bx-network-chart'></i> Algorithms</li>
+                        <li><i class='bx bx-bulb'></i> Problem Solving</li>
+                    </ul>
+                    
+                    <h3>Coding Profiles:</h3>
+                    <div class="profile-links">
+                        <a href="https://leetcode.com/vinaydanidhariya/" target="_blank" class="profile-link">
+                            <img src="./images/leetcode.png" alt="LeetCode" class="profile-icon">
+                            <span>LeetCode</span>
+                        </a>
+                        <a href="https://www.hackerrank.com/vinaydanidhariya" target="_blank" class="profile-link">
+                            <img src="./images/hackerrank.png" alt="HackerRank" class="profile-icon">
+                            <span>HackerRank</span>
+                        </a>
+                        <a href="https://auth.geeksforgeeks.org/user/vinaydanidhariya" target="_blank" class="profile-link">
+                            <img src="./images/gfg-logo.pn  g" alt="GeeksForGeeks" class="profile-icon">
+                            <span>GeeksForGeeks</span>
+                        </a>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </div>
+    </section>
+    <!-- Honors & Achievements Section End -->
     <!-- Contact Section Start -->
     <section class="contact" id="contact">
-        <div class="heading">
-            <h2>Contact</h2>
-            <span>Connect With Me</span>
-        </div>
-        <div class="contact-form">
-            <form id="contact-form">
-                <input type="text" id="name" placeholder="Your Name">
-                <input type="email" id="email" placeholder="Your Email">
-                <textarea id="message" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-                <button type="button" id="send-button" class="btn">Send Message</button>
-            </form>
+        <div class="container">
+            <div class="section-heading" data-aos="fade-up">
+                <h2 class="section-title">Contact</h2>
+                <p class="section-subtitle">Get In Touch</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="200">
+                    <h3>Let's Connect</h3>
+                    <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
+                    
+                    <div class="contact-item">
+                        <i class='bx bxs-map'></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Rajkot, Gujarat, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class='bx bxs-envelope'></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:vinaydanidhariya@gmail.com">vinaydanidhariya@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class='bx bxs-phone'></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9265979359</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/vinaydanidhariya" aria-label="GitHub" class="social-icon"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/vinay-danidhariya/" aria-label="LinkedIn" class="social-icon"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.instagram.com/vinay_danidhariya/" aria-label="Instagram" class="social-icon"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://twitter.com/vinay_danidhariya" aria-label="Twitter" class="social-icon"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+                  <div class="contact-form-container" data-aos="fade-left" data-aos-delay="300">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Your Message" rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="button" id="send-button" class="btn primary-btn">
+                            <i class='bx bx-send'></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- Contact Section End -->
-
-    <div class="footer">
-        <h2>Follow Me</h2>
-        <div class="footer-social">
-            <a href="https://github.com/vinaydanidhariya" ><i class='bx bxl-github'></i></a>
-            <a href="https://www.linkedin.com/in/vinay-danidhariya/"><i class='bx bxl-linkedin'></i></a>
-            <a href="https://www.instagram.com/vinay_danidhariya/"><i class='bx bxl-instagram'></i></a>
-            <a href="https://twitter.com/vinay_danidhariya"><i class='bx bxl-twitter'></i></a>
+    <!-- Contact Section End -->    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-navigation">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#honors">Honors</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h3>Follow Me</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/vinaydanidhariya" aria-label="GitHub"><i class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/vinay-danidhariya/" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://www.instagram.com/vinay_danidhariya/" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://twitter.com/vinay_danidhariya" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Vinay Danidhariya. All Rights Reserved.</p>
+            </div>
         </div>
-
-    </div>
-
-    <div class="copyright">
-        &#169; Vinay Danidhariya | All Right Reserved.</p>
-    </div>
-    <!-- Javascript -->
+    </footer>
+    <!-- Footer End -->    <!-- Javascript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="script.js"></script>
-    <script>
-        function sendEmail(name, email, message) {
-            // For demonstration purposes, we'll just log the data to the console
-            console.log(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
-        }
-
-        // DOM elements
-        const sendButton = document.getElementById('send-button');
-        const nameInput = document.getElementById('name');
-        const emailInput = document.getElementById('email');
-        const messageInput = document.getElementById('message');
-
-        // Add event listener to the send button
-        sendButton.addEventListener('click', () => {
-            const name = nameInput.value.trim();
-            const email = emailInput.value.trim();
-            const message = messageInput.value.trim();
-
-            // Perform basic validation
-            if (name === '' || email === '' || message === '') {
-                alert('Please fill in all fields');
-                return;
-            }
-
-            // Call the sendEmail function
-            sendEmail(name, email, message);
-
-            // Clear form inputs
-            nameInput.value = '';
-            emailInput.value = '';
-            messageInput.value = '';
-
-            alert('Message sent successfully!');
-        });
-    </script>
 </body>
 
 </html>
